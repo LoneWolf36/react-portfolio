@@ -1,4 +1,4 @@
-<p align="center"> <img height="200" src="https://raw.githubusercontent.com/LoneWolf36/reat-portfolio/master/public/logo/android-chrome-512x512.png"></p>
+<p align="center"> <img height="200" src="https://raw.githubusercontent.com/LoneWolf36/react-portfolio/master/public/logo/android-chrome-512x512.png"></p>
 <h1 align="center">Portfolio</h1>
 
 A portfolio made using React to display all my achievements and projects
