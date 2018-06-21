@@ -13,10 +13,10 @@ A portfolio made using React to display all my achievements and projects
 ## Features Wishlist
 
 - [ ] Show GitHub projects
-- [ ] Contains all details about me
-- [ ] Includes certifications and achievements
-- [ ] Contains skills with levels
-- [ ] Contains contact me form
+- [ ] Personal details
+- [ ] Include certifications and achievements
+- [ ] Skills with specialization
+- [ ] Contact me form
 
 ## Design Specs
 
@@ -58,7 +58,7 @@ A portfolio made using React to display all my achievements and projects
 
 - [React](https://reactjs.org/)
 - [Bulma CSS](https://bulma.io/)
-- [Material]
+
 ## License
 
 [MIT License](LICENSE)
