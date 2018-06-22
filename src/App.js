@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import {  BrowserRouter as Router, Route, Link, Switch, Redirect  } from 'react-router-dom'
-import Home from './components/Home'
+import Home from './components/Home/Home'
 
 class App extends Component {
 	render() {
