@@ -35,7 +35,7 @@ A portfolio made using React to display all my achievements and projects
 
   #5a6e9c - Light, non important text
 
-  #e9edf6 - Backgroung of the above text
+  #e9edf6 - Background of the above text
 
   #80518E
 

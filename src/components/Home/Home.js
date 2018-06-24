@@ -1,17 +1,15 @@
 import React from 'react'
-import './Home.css'
-import styled from 'styled-components'
-
-const Image = styled.img`
-	width: 100%;
-	margin: auto;
-	padding: 0 5%;
-`
+import { ImageContainer } from './Home.style'
+import Zoom from 'react-reveal/Zoom'
 
 const Home = () => {
 	return (
-		<div>
-			<h1 className='heading'>Faizan / Khan<h2>Developer | Hobbyist</h2></h1>
+		<div className='is-fluid'>
+			<ImageContainer>
+				<h1>Faizan/Khan</h1>
+				<h2>Developer | Hobbyist</h2>
+			</ImageContainer>
+			<Zoom>aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa</Zoom>
 		</div>
 	)
 }
