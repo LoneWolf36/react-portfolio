@@ -57,7 +57,7 @@ A portfolio made using React to display all my achievements and projects
 ## Technology Stack
 
 - [React](https://reactjs.org/)
-- [Bulma CSS](https://bulma.io/)
+- [Bootstrap CSS](https://getbootstrap.com/)
 
 ## License
 

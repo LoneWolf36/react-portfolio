@@ -1,18 +1,23 @@
 import React, { Component } from 'react'
-import './App.css'
 import {  BrowserRouter as Router, Route, Link, Switch, Redirect  } from 'react-router-dom'
-import Home from './containers/Home/Home'
+import AboutMe from './containers/AboutMe/AboutMe'
 import Projects from './containers/Projects/Projects'
+import ContactMe from './containers/ContactMe/ContactMe'
+import Resume from './containers/Resume/Resume'
+import LabelBottomNavigation from './components/LabelBottomNavigation/LabelBottomNavigation'
 
 class App extends Component {
 	render() {
 		return (
 			<Router>
-				<div className="App">
-					<div className="container">
-						<Route path='/' exact={true} component={Home} />
-						<Route path='/projects' component={Projects} />
+				<div>
+					<div className='fixed-bottom'>
+						<LabelBottomNavigation />
 					</div>
+					<Route path='/' exact={true} component={AboutMe} />
+					<Route path='/projects' component={Projects} />
+					<Route path='/resume' component={Resume} />
+					<Route path='/contact' component={ContactMe} />
 				</div>
 			</Router>
 		)

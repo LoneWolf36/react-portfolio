@@ -1,4 +1,8 @@
-html body {
+html, body {
     font-family: 'Raleway', sans-serif;
     background-color: #e9edf6;
+}
+
+body {
+    padding-bottom: 70px;
 }
