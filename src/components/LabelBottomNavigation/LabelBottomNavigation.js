@@ -17,7 +17,6 @@ class LabelBottomNavigation extends React.Component {
     console.log('value',value)
     this.setState({ value })
     this.props.history.push(`/${value}`)
-    console.log(`/${value}`)
   }
 
   render() {

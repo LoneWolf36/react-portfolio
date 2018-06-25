@@ -1,9 +1,12 @@
 html, body {
     font-family: 'Raleway', sans-serif;
-    background-color: #e9edf6;
+    background: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 body {
     padding-bottom: 70px;
-    padding: 2%;
+    padding: 3%;
 }
