@@ -13,32 +13,18 @@ const Home = () => {
 				<img src={require(('../../assets/faiz.jpg'))} alt='Faizan Khan' className='img-fluid rounded' />
 			</div>
 			<div className='mt-5'>
-				<Fade>
-					<h1 className='text-center m-5'>About Me</h1>
-				</Fade>
 				<Zoom>
 					<section>
-						<div className="card rounded mb-5">
-							<div className="card-body text-center">
-								I am an enthusiastic fresher who is passionate about learning new and upcoming technologies and work hard for the growth of the organization as well as personal growth.
-							</div>
+						<div className="jumbotron rounded text-center">
+							<p>Hi there! You are here means that you want to get to know me. Ok, so, you already know that my name is Faizan Khan. I am from Bahrain. I am an enthusiastic fresher who is passionate about learning new and upcoming technologies and work hard for the growth of the organization as well as personal growth. My curiosity to learn new things keeps me driven to learn more in this ever growing world, filled with great technologies.</p>
 						</div>
 					</section>
 				</Zoom>
 				<Zoom>
 					<section>
-						<div className="card rounded mb-5">
-							<div className="card-body text-center">
-								My curiosity to learn new things keeps me driven to learn more in this ever growing world, filled with great technologies.
-							</div>
-						</div>
-					</section>
-				</Zoom>
-				<Zoom>
-					<section>
-						<div className="card rounded mb-5">
-							<div className="card-body text-center">
-								<h1 className=''>The qualities that make me stand out are: </h1>
+						<div className="jumbotron rounded text-center">
+							<h2 className='display-4'>The qualities that make me stand out are: </h2>
+							<div className='pt-4'>
 								<Bounce><p>Curiosity</p></Bounce>
 								<Bounce><p>Adaptability</p></Bounce>
 								<Bounce><p>Communication skills</p></Bounce>
