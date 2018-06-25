@@ -2,10 +2,12 @@ h1 {
     font-weight: 900;
     font-size: 3em;
     text-transform: uppercase;
+    text-shadow: 4px 4px 4px rgba(151, 151, 151, 0.8);
 }
 
 h2 {
-    font-weight: 400;
-    font-size: 1.8em;
+    font-weight: 300;
+    font-size: 1.4em;
     text-transform: uppercase;
+    text-shadow: 4px 4px 4px rgba(151, 151, 151, 0.8);
 }

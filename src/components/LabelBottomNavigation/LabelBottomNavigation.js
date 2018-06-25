@@ -6,14 +6,18 @@ import ContactIcon from '@material-ui/icons/ContactMail'
 import WorkIcon from '@material-ui/icons/Work'
 import ResumeIcon from '@material-ui/icons/Description'
 import './LabelBottomNavigation.css'
+import { withRouter } from "react-router-dom"
 
-export default class LabelBottomNavigation extends React.Component {
+class LabelBottomNavigation extends React.Component {
   state = {
-    value: 'recents',
+    value: '',
   }
 
   handleChange = (event, value) => {
+    console.log('value',value)
     this.setState({ value })
+    this.props.history.push(`/${value}`)
+    console.log(`/${value}`)
   }
 
   render() {
@@ -21,7 +25,7 @@ export default class LabelBottomNavigation extends React.Component {
 
     return (
       <BottomNavigation value={value} onChange={this.handleChange} showLabels>
-        <BottomNavigationAction label="About me" value="about" icon={<PersonIcon />} />
+        <BottomNavigationAction label="About me" value="" icon={<PersonIcon />} />
         <BottomNavigationAction label="Projects" value="projects" icon={<WorkIcon />} />
         <BottomNavigationAction label="Resume" value="resume" icon={<ResumeIcon />} />
         <BottomNavigationAction label="Contact Me" value="contact" icon={<ContactIcon />} />
@@ -29,3 +33,5 @@ export default class LabelBottomNavigation extends React.Component {
     )
   }
 }
+
+export default withRouter(LabelBottomNavigation)
