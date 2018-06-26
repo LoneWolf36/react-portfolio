@@ -27,7 +27,7 @@ class LabelBottomNavigation extends React.Component {
         <BottomNavigationAction label="About me" value="" icon={<PersonIcon />} />
         <BottomNavigationAction label="Projects" value="projects" icon={<WorkIcon />} />
         <BottomNavigationAction label="Resume" value="resume" icon={<ResumeIcon />} />
-        <BottomNavigationAction label="Contact Me" value="contact" icon={<ContactIcon />} />
+        <BottomNavigationAction label="Contact me" value="contact" icon={<ContactIcon />} />
       </BottomNavigation>
     )
   }
