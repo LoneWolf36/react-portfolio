@@ -10,7 +10,7 @@ class App extends Component {
 	render() {
 		return (
 			<Router>
-				<div className='container'>
+				<div className='container h-100'>
 					<div className='fixed-bottom'>
 						<LabelBottomNavigation />
 					</div>

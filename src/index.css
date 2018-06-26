@@ -10,4 +10,5 @@ html, body {
 body {
     padding-bottom: 70px;
     padding: 3%;
+    -webkit-font-smoothing: antialiased;
 }
