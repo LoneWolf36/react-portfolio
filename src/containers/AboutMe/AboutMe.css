@@ -20,19 +20,3 @@ strong {
 p {
   color: #616161;
   line-height: 1.8em; }
-
-/* p, .card-body {
-    font-size: 1.1em !important;
-    color: #e9edf6 !important;
-}
-
-.card {
-    background-color: rgba(121, 122, 122, 0.6);
-    -webkit-box-shadow: 4px 4px 15px 3px rgba(153,153,153,0.26);
-    -moz-box-shadow: 4px 4px 15px 3px rgba(153,153,153,0.26);
-    box-shadow: 4px 4px 15px 3px rgba(153,153,153,0.26);
-}
-
-.card-body h1 {
-    font-size: 1.2em;
-} */
